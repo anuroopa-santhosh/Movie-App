@@ -1,0 +1,91 @@
+.listpage{
+    margin-left: 20px;
+    color: #fff;
+  }
+  .lists{
+    display: flex;
+    padding: 20px;
+    overflow-x:scroll;
+    overflow-y:hidden;
+    position: relative;
+    
+  }
+  .list:hover .write{
+    transform: translateY(-100%);
+  }
+  
+  .lists::-webkit-scrollbar{
+    display:none;
+  }
+  
+  .list{
+    cursor: pointer;
+    max-height: 150px;
+    margin-right: 10px;
+    
+  }
+
+  .list:hover {
+    transform: scale(1.1);
+  }
+  
+  .descc{
+    padding: 10px;
+    line-height: 1.3;
+    font-size: 0.7rem;
+    height: 100%;
+    width: 250px; 
+    text-align: justify;
+    background-color: rgb(104, 100, 100, 30%);
+    max-height: 140px;
+   
+  }
+
+  .write{
+    position: absolute;
+    transform: translateY(100%);
+  }
+  
+  .Info{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    font-size: 17px;
+    font-weight: 600;
+    color: gray;
+  }
+  .rating{
+    align-items: center;
+    color: gray;
+  
+  }
+  
+  .text::-webkit-scrollbar{
+    display: none;
+  }
+  .icons {
+    display: flex;
+    margin-bottom: 10px;
+    :hover{
+     color: aqua;
+    }
+   
+    .icon {
+      border: 2px solid white;
+      padding: 5px;
+      border-radius: 50%;
+      margin-right: 10px;
+      font-size: 16px;
+    }
+  }
+  .checked {
+    color: orange;
+  }
+  .head{
+    text-align:left;
+  }
+  
+  
+  
+  
+  

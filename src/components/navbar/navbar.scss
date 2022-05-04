@@ -1,0 +1,114 @@
+.navbar {
+  width: 100%;
+  color: white;
+  font-size: 14px;
+  position: fixed;
+  top: 0;
+  z-index: 999;
+  background-color: var(--main-color);
+  
+
+  .container {
+    padding: 0px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+
+    .left {
+      display: flex;
+      align-items: center;
+
+      img {
+        height: 50px;
+        margin-right: 40px;
+      }
+
+      span {
+        margin-right: 20px;
+        cursor: pointer;
+      }
+       .home {
+        color: azure;
+        padding-right: 15px;
+        font-size: medium;
+        text-decoration: none;
+        &:hover{
+          color: rgb(17, 148, 229);
+          
+        }
+       }
+       .movies {
+        color: azure;
+        padding-right: 10px;
+        font-size: medium;
+        text-decoration: none;
+        &:hover{
+          color: rgb(17, 148, 229);
+          
+        }
+       }
+       .tv {
+        color: azure;
+        padding-right: 10px;
+        font-size: medium;
+        text-decoration: none;
+         &:hover{
+          color: rgb(17, 148, 229);
+           
+         }
+       }
+      
+    }
+
+    .right {
+      display: flex;
+      align-items: center;
+     
+      img {
+        width: 30px;
+        height: 30px;
+        border-radius: 5px;
+        object-fit: cover;
+        cursor: pointer;
+      }
+
+      .profile {
+        .options {
+          display: none;
+          background-color: var(--main-color);
+          border-radius: 5px;
+        }
+
+        span {
+          padding: 10px;
+          cursor: pointer;
+         
+        }
+        
+
+        &:hover {
+          .options {
+            display: flex;
+            flex-direction: column;
+            position: absolute;
+          }
+        }
+      }
+    }
+  }
+}
+.input{
+  border: none;
+  outline: none;
+  position: fixed;
+  filter: invert(0.8);
+  color: darkgray;
+  padding: 15px;
+  display: flex;
+  margin-right: 5px;
+  right: 200px;
+  width: 50px;
+  color: grey;
+  top: 5px;;
+}
